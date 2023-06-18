@@ -2665,6 +2665,7 @@ ul {
 
 	#footer .icons {
 		margin: 1em 0 0 0;
+		float: right;
 	}
 
 		#footer .icons a {
