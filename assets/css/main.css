@@ -2175,7 +2175,7 @@ body, input, select, textarea {
 ul {
 	font-size: 0.8em;
 	list-style: disc;
-	margin: 0 0 0 0;
+	margin: 0 0 2em 0;
 	padding-left: 1em;
 	line-height: 1.5em;
 	text-align: justify;
@@ -2665,7 +2665,6 @@ ul {
 
 	#footer .icons {
 		margin: 1em 0 0 0;
-		float: right;
 	}
 
 		#footer .icons a {
@@ -3266,11 +3265,12 @@ header.major h2 {
 			}
 
 				#footer .icons {
-					margin: 0 0 1em 0;
+					margin: 0 0 -2em 0;
 				}
 
 				#footer .copyright {
-					margin: 0 0 1em 0;
+					margin: -2em 0 1em 0;
+					padding: -2em 0 1em 0;
 				}
 
 					#footer .copyright li {
